@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "file": "ngx-lib.umd.js",
+  "sources": [
+    "ng://@ngx/lib/out/src/ngx-lib.module.ts",
+    "ng://@ngx/lib/out/src/components/hello-world/hello-world.component.ts"
+  ],
+  "sourcesContent": [
+    "import { NgModule } from '@angular/core';\nimport { HelloWorldModule } from './components/hello-world/hello-world.component';\n\n@NgModule({\n  imports: [HelloWorldModule],\n  exports: [HelloWorldModule]\n})\nexport class NgxLibModule {}\n",
+    "import { Component, NgModule } from '@angular/core';\n\n@Component({\n  selector: 'app-hello-world',\n  template: `<h2>Hello, World!</h2>\n`,\n  styles: [``]\n})\nexport class HelloWorldComponent { }\n\n@NgModule({\n  exports: [HelloWorldComponent],\n  declarations: [HelloWorldComponent]\n})\nexport class HelloWorldModule {}\n"
+  ],
+  "names": [
+    "Component"
+  ],
+  "mappings": ";;;;;;;ICQA,SAAA,mBAAA,GAAA;;;CANA,EAAA,CAAA,CAAA;AACA,mBAAA,CAAA,UAAA,GAAA;IACA,EAAA,IAAA,EAAAA,cAAA,EAAA,IAAA,EAAA,CAAA;gBACA,QAAA,EAAA,iBAAA;gBACE,QAAQ,EAAV,0BAAA;gBACA,MAAA,EAAA,CAAA,EAAA,CAAA;;;AAOA,mBAAA,CAAA,cAAA,GAAA,YAAA,EAAA,OAAA,EAAA,CAAA,EAAA,CAAA;;;KAJA;IACA,OAAA,gBAAA,CAAA;CACA,EAAA,CAAA,CAAA;AACA,gBAAA,CAAA,UAAA,GAAA;;;;aDNA,EAAA,EAAA;;;AAJA,IAAA,YAAA,kBAAA,YAAA;IACA,SAAA,YAAW,GAAX;KACA;IACA,OAAA,YAAA,CAAA;;;;;;;;;;;;;;;;;;;;;;"
+}

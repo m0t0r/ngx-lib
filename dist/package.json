@@ -1,0 +1,19 @@
+{
+  "name": "@ngx/lib",
+  "version": "0.0.1",
+  "author": "Vitaly",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "@angular/common": "^5.0.0"
+  },
+  "main": "bundles/ngx-lib.umd.js",
+  "module": "esm5/ngx-lib.js",
+  "es2015": "esm2015/ngx-lib.js",
+  "typings": "ngx-lib.d.ts",
+  "metadata": "ngx-lib.metadata.json",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  }
+}
